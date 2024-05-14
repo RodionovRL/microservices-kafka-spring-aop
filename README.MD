@@ -22,7 +22,7 @@ ___
 
 ### Запуск приложения:
 Поднимаем контейнер Docker с БД из файла:
-[docker-compose-spring-aop-db.yaml](docker-compose-spring-aop-db.yaml)
+[docker-compose-spring-aop-db.yaml](docker-compose-spring-aop-kafka.yaml)
 
 после запускаем приложение в IDE;
 
