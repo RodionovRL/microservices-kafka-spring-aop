@@ -22,6 +22,7 @@ import static ru.t1.aspects.aspect.AspectHelper.executionTime;
 public class TrackTimeAspect {
     private final TrackTimeService trackTimeService;
     private final TrackTimeProducer trackTimeProducer;
+
     @Pointcut("@annotation(ru.t1.aspects.annotation.TrackTime)")
     public void syncRunningPointcut(){
     }

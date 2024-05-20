@@ -55,6 +55,7 @@ public class TrackTimeServiceImpl implements TrackTimeService {
 
         log.info("TrackTime: save trackTime={}", result);
     }
+
     @Override
     @Transactional(readOnly = true)
     public List<TrackTimeDto> getAll() {
