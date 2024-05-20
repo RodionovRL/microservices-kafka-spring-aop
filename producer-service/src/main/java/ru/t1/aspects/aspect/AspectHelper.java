@@ -9,6 +9,8 @@ import ru.t1.tracktime.service.TrackTimeService;
 import java.time.LocalDateTime;
 
 public class AspectHelper {
+    private AspectHelper() {
+    }
 
     static Object executionTime(ProceedingJoinPoint joinPoint, Boolean isAsync,
                                 Logger log, TrackTimeService trackTimeService) throws Throwable {
