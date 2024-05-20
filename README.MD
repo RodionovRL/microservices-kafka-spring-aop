@@ -1,4 +1,10 @@
-# SpringAOP
+# microservices-kafka-spring-aop 
+_первоначальная версия приложения "SpringAOP" находится в ветке SpringAOP_
+
+Приложение было доработано, проведён рефакторинг:
+- выделено 2 микросервиса consumer-service  и  produser-service
+- сщт
+
 Приложение реализует систему учета времени выполнения методов в приложении с использованием Spring AOP,
 оно способно асинхронно логировать и анализировать данные о времени выполнения методов
 
@@ -22,7 +28,7 @@ ___
 
 ### Запуск приложения:
 Поднимаем контейнер Docker с БД из файла:
-[docker-compose-spring-aop-db.yaml](docker-compose-spring-aop-kafka.yaml)
+[docker-compose-spring-aop-db.yaml](docker-compose-microservices-kafka-spring-aop.yaml)
 
 после запускаем приложение в IDE;
 
